@@ -21,7 +21,7 @@ Please find link to source code of query: [query code](https://github.com/PiotrB
 4. Query in lines 34-45 obtains information about sales value and product price ranges.
    It joins the results from steps 2 and 3 and uses aggregate functions MIN, MAX on both sales_value and price.  
    This query aggregates across years and buckets.
-5. Query in lines 46-54 provides the average number of monthly transactions for each bucket across years.  
+5. Query in lines 46-54 provides the average number of monthly transactions of each bucket's products for a year.  
    In this particular query instead of results from step 2 we use our basis from step 1, join it with bucket assignment sub-query and nest SUM aggregate within analytical AVG function.
 6. Query from lines 55-71 needs to be broken down into inner and outer parts.  
    Inner query joins results from step 2 and 3 to calculate the average yearly product sales volumes across buckets along with sales volume of least/most expensive product of that bucket.  
