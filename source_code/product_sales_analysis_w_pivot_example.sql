@@ -89,13 +89,10 @@ select *
 from
 (
     select bucket_nr,minimum_sales_val,maximum_sales_val, least_expensive_product, most_expensive_product
-    from
-    (
-        select year,bucket_nr,minimum_sales_val,maximum_sales_val, least_expensive_product, most_expensive_product,avg_monthly_transaction_cnt,most_expensive_avg_diff, least_expensive_avg_diff
-        from
-            bucket_min_max_sales_value JOIN bucket_avg_monthly_transactions USING(year,bucket_nr) 
-            JOIN bucket_avg_sales_diff_against_most_least_expensive USING(year,bucket_nr) 
-    )
+    from 
+        bucket_min_max_sales_value 
+        JOIN bucket_avg_monthly_transactions USING(year,bucket_nr) 
+        JOIN bucket_avg_sales_diff_against_most_least_expensive USING(year,bucket_nr) 
 )
 PIVOT (
         MIN(minimum_sales_val) as minimal_of_minimum_sales
