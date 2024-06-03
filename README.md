@@ -7,7 +7,7 @@ creation of hierarchical cubes, pattern matching mechanism, pivot clause and uas
 
 ## List of queries:
 
-  1. Product sales analysis with pivoting: [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/product_sales_analysis_w_pivot_example.sql)    [explanation]()
+  1. Product sales analysis with pivoting: [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/product_sales_analysis_w_pivot_example.sql)    [explanation](https://github.com/PiotrBelniak/SQL-queries/blob/main/descriptions/product_sales_analysis_w_pivot_example.md)
   2. Queries showing sales change(in value and percentage) across different type periods, also showing two periods with best profit difference: [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/differences_of_sales_across_different_time_periods.sql)   [explanation]()
   3. Queries showing, how to obtain 5 specific groupings in 3 different ways: [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/example_of_using_grouping_sets.sql)   [explanation]()
   4. Period to period comparison across multiple time levels on densified data: [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/period_to_period_multiple_time_levels_comparison.sql)   [explanation]()
