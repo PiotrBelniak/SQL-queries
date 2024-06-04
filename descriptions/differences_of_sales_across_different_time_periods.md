@@ -35,13 +35,13 @@ Please find link to source code of query: [query code](https://github.com/PiotrB
 
 
 ## Example of results
-Query nr 1:
+Query nr 1:  
 ![obraz](https://github.com/PiotrBelniak/SQL-queries/assets/169681378/cc58c464-8dd0-4883-b281-72b17de436d1)
 
 
-Query nr 2:
+Query nr 2:  
 ![obraz](https://github.com/PiotrBelniak/SQL-queries/assets/169681378/305982b1-feb1-44ee-a5c5-f9d302c1055e)
 
 
-Query nr 3:
+Query nr 3:  
 ![obraz](https://github.com/PiotrBelniak/SQL-queries/assets/169681378/8b31534b-f848-406e-9c4b-dcde7fa1f771)
