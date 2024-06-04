@@ -2,8 +2,8 @@
 ## Introduction
 The query provides insights on sales across years of laptop product group sub-groups created as equiheight buckets,  
 providing information such as gross sales value range of products in each bucket, the price range of products within them,  
-their average monthly transactional contribution across the year 
-and how much more/less transaction were made with most/least expensive products bucket-wise.
+their average monthly transaction count across the year 
+and how much more/less transaction were made with most/least expensive products against average transaction count bucket-wise.
 
 ## Source code
 Please find link to source code of query: [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/product_sales_analysis_w_pivot_example.sql)
