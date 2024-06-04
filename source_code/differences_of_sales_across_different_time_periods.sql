@@ -27,7 +27,12 @@ order by p.name, month, year;
 
 select * from
 (
-select product_name, year, month,yty_percent_diff, RANK() OVER (PARTITION BY product_name,month ORDER BY yty_percent_diff desc) as ranking from
+select product_name
+        , year
+        , month
+        ,yty_percent_diff
+        , RANK() OVER (PARTITION BY product_name,month ORDER BY yty_percent_diff desc) as ranking 
+from
 (   
     select p.name as product_name
         , c.year as year
