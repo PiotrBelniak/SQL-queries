@@ -1,4 +1,4 @@
-# Advance pattern matching
+# Advanced pattern matching
 ## Introduction
 The query provides information on how long each monitor sold needed to break daily sales record and how many V or U type shapes in sales plot were needed to achieve new sales record.
 
