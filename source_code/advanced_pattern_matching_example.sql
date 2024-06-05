@@ -46,11 +46,11 @@ from
                 ,FINAL LAST(break_point.sales_amt) as final_sales_amt
         all rows per match
         after match skip to last PAT
-        pattern (strt ((max_down+ {-no_change-}*)+ (max_up+ {-no_change-}*)+)+ ((max_down+ {-no_change-}*)+ break_point|break_point))
-        subset PAT=(max_down,max_up,break_point)
+        pattern (strt ((decrease+ {-no_change-}*)+ (increase+ {-no_change-}*)+)+ ((decrease+ {-no_change-}*)+ break_point|break_point))
+        subset PAT=(decrease,increase,break_point)
         define
-            max_up as max_up.sales_amt>prev(max_up.sales_amt) AND max_up.sales_amt<=strt.sales_amt
-            ,max_down as max_down.sales_amt<prev(max_down.sales_amt) 
+            increase as increase.sales_amt>prev(increase.sales_amt) AND increase.sales_amt<=strt.sales_amt
+            ,decrease as decrease.sales_amt<prev(decrease.sales_amt) 
             ,break_point as break_point.sales_amt>strt.sales_amt
             ,no_change as no_change.sales_amt=prev(no_change.sales_amt)
         ) MR
