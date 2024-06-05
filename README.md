@@ -3,16 +3,16 @@
 This repository is small collection of SQL queries that use advanced techniques, such as approximation functions,  
 analytic functions in reporting/cumulative/window versions, nested aggregates within analytic functions,  
 different forms of group by clause: cube, rollup, grouping sets, concatenated groupings, group identifiers,  
-creation of hierarchical cubes, pattern matching mechanism, pivot clause and uasge of CTEs.
+creation of hierarchical cubes, pattern matching mechanism, pivot clause and usage of CTEs.
 
 ## List of queries:
 
   1. Product sales analysis with pivoting: [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/product_sales_analysis_w_pivot_example.sql)    [explanation](https://github.com/PiotrBelniak/SQL-queries/blob/main/descriptions/product_sales_analysis_w_pivot_example.md)
-  2. Queries showing sales change(in value and percentage) across different type periods, also showing two periods with best profit difference: [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/differences_of_sales_across_different_time_periods.sql)   [explanation]()
-  3. Queries showing, how to obtain 5 specific groupings in 3 different ways: [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/example_of_using_grouping_sets.sql)   [explanation]()
-  4. Period to period comparison across multiple time levels on densified data: [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/period_to_period_multiple_time_levels_comparison.sql)   [explanation]()
-  5. Advanced pattern matching example showing, how much time product needs to have best sales day : [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/advanced_pattern_matching_example.sql)   [explanation]()
-  6. Various relational analytics SQL queries: [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/relational_analitycs_queries.sql)   [explanation]()
+  2. Queries showing sales change(in value and percentage) across different type periods, also showing two periods with best profit difference: [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/differences_of_sales_across_different_time_periods.sql)   [explanation](https://github.com/PiotrBelniak/SQL-queries/blob/main/descriptions/differences_of_sales_across_different_time_periods.md)
+  3. Queries showing, how to obtain 5 specific groupings in 3 different ways: [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/example_of_using_grouping_sets.sql)   [explanation](https://github.com/PiotrBelniak/SQL-queries/blob/main/descriptions/example_of_using_grouping_sets.md)
+  4. Period to period comparison across multiple time levels on densified data: [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/period_to_period_multiple_time_levels_comparison.sql)   [explanation](https://github.com/PiotrBelniak/SQL-queries/blob/main/descriptions/period_to_period_multiple_time_levels_comparison.md)
+  5. Advanced pattern matching example showing, how much time product needs to have best sales day : [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/advanced_pattern_matching_example.sql)   [explanation](https://github.com/PiotrBelniak/SQL-queries/blob/main/descriptions/advanced_pattern_matching_example.md)
+  6. Various relational analytics SQL queries: [query code](https://github.com/PiotrBelniak/SQL-queries/blob/main/source_code/relational_analitycs_queries.sql)   [explanation](https://github.com/PiotrBelniak/SQL-queries/blob/main/descriptions/relational_analitycs_queries.md)
 
 ## Data model:
 In all queries we use combination of four tables: sales, product, calendar and customers.
