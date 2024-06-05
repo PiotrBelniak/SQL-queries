@@ -10,7 +10,6 @@ from
             ,start_point
             , end_point-start_point as days_to_new_best_sales
             , match_var
-            ,seq_num
             , sales_amt
             , final_sales_amt
             ,FLOOR(SUM(CASE WHEN match_var != prev_match_var THEN 1 ELSE 0 END) OVER (PARTITION BY product_name,seq_num)/2) as number_of_V_shapes 
