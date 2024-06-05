@@ -10,7 +10,6 @@ from
             ,start_point
             , end_point-start_point as days_to_new_best_sales
             , match_var
-            , prev_match_var
             ,seq_num
             , sales_amt
             , final_sales_amt
